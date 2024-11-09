@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", serif;
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 7vw;
+    background: linear-gradient(125deg, #9589ff, #08b946);
+}
+.nav-container{
+    max-width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-house-chimney{
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.fa-house-chimney{
+    width: 7vw;
+    font-size: 3vw;
+    height: auto;
+}
